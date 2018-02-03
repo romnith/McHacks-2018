@@ -9,6 +9,8 @@ void setup() {
   // Set the keep-alive value for TELUS SIM card
   Particle.keepAlive(30);
 
+  Serial.begin(9600);
+
   pinMode(led2, OUTPUT);
 
 }
@@ -23,5 +25,6 @@ void loop () {
 
    delay(1000);
 
-Particle.publish("test");
+   Serial.printf("probtemp: \n");
+
 }
