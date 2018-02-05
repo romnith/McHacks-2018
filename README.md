@@ -1,8 +1,10 @@
-# McHacks-2018
+# HomeScan - McHacks 2018
 
 A Particle project named McHacks-2018
 
-## Welcome to your project!
+Devpost link: https://devpost.com/software/homescan
+
+## About the code:
 
 Every new Particle project is composed of 3 important elements that you'll see have been created in your project directory for McHacks-2018.
 
