@@ -1,10 +1,16 @@
 # HomeScan - McHacks 2018
 
-A Particle project named McHacks-2018
+This is a project developed under 24 hours for a Hackathon competition hosted by McHacks.
+
+HomeScan is a solution for infrastructure monitoring. The user can use an intelligent bot to ask about the condition of his/her house from a distance. 
+
+Data such as ambient air temperature, humidity,  fluids temperature or even gas leak detection are gathered and sent to an Amazon Web Service database using a Particle Electron board with cellular connectivity. The database is then used by a Cisco Spark bot according to the user's requests. Another bot is also checking for abnormal activities and warns the user of potential harm. 
 
 Devpost link: https://devpost.com/software/homescan
 
-## About the code:
+## About the code for hardware implementation:
+
+The code is written for the Particle Electron board utilizing Telus' cellular network.
 
 Every new Particle project is composed of 3 important elements that you'll see have been created in your project directory for McHacks-2018.
 
